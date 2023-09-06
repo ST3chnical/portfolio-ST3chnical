@@ -8,6 +8,13 @@ const socialMediaIcons = {
     linkedin: "/svg/linkedin.svg",
 };
 
+const socialMediaLinks = {
+    github: "https://github.com/ST3chnical",
+    whatsapp: "https://wa.me/+573042042781",
+    instagram: "https://www.instagram.com/sammerk2_/",
+    linkedin: "https://www.linkedin.com/in/samuel-mercado-948727270",
+};
+
 const Footer = () => {
     return (
         <footer>
@@ -18,7 +25,7 @@ const Footer = () => {
                 <ul className="social-media">
                     {Object.keys(socialMediaIcons).map((key) => (
                         <li key={key}>
-                            <a href="/">
+                            <a href={socialMediaLinks[key]} target="_blank" rel="noopener noreferrer">
                                 <img src={socialMediaIcons[key]} alt={key} />
                             </a>
                         </li>
@@ -30,3 +37,4 @@ const Footer = () => {
 }
 
 export {Footer};
+
