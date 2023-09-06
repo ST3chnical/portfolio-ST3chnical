@@ -1,0 +1,11 @@
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 202px;
+}
+
+.contact-info .email-button {
+    margin-top: 0;
+}
+

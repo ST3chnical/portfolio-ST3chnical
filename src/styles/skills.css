@@ -1,0 +1,25 @@
+.skills-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.skill {
+    width: 180px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    background-color: rgba(157, 157, 157, 0.05);
+    text-align: center;
+    color: #FFF;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill img {
+    max-width: 100px;
+    height: auto;
+}

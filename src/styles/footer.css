@@ -1,0 +1,31 @@
+footer {
+    border-top: 1px solid #696969;
+    margin-top: 88px;
+    color: #FFF;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.footer-left {
+    margin-left: 96px;
+    font-size: 14px;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-right: 43px;
+}
+
+.social-media li {
+    margin-right: 43px;
+}
+
+.social-media a img {
+    width: 30px;
+    height: 30px;
+}

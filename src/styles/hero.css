@@ -1,0 +1,63 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px 0;
+    padding: 0 24px;
+}
+
+.hero-left {
+    width: 520px;
+    text-align: left;
+    margin-left: 96px;
+    margin-top: 240px;
+}
+
+.hero-left p {
+    margin-left: 0;
+}
+
+h1 {
+    font-size: 54px;
+    color: var(--green);
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -0.5px;
+}
+
+.paragraph {
+    color: var(--gray-light);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    width: 520px;
+    text-align: left;
+    margin-left: 120px;
+}
+
+.email-button {
+    margin-top: 88px;
+    display: inline-flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    background: var(--gray-dark);
+    color: #FFF;
+}
+
+.photo-samuel {
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-image: url('/./public/images/perfil.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 202px;
+    margin-top: 129px;
+}
