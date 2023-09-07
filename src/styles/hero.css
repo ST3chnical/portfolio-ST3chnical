@@ -50,16 +50,15 @@ h1 {
 }
 
 .photo-samuel {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     flex-shrink: 0;
     border-radius: 50%;
     background-image: url('/./public/images/perfil.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-right: 202px;
-    margin-top: 129px;
+    margin: 129px 180px 0 45px;
 }
 
 @media screen and (max-width: 768px) {
