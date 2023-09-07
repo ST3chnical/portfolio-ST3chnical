@@ -2,6 +2,12 @@ import React from 'react';
 import '../styles/contact.css';
 
 const Contact = () => {
+    const email = 'samuelmercado7b@gmail.com';
+
+    const handleEmailClick = () => {
+        window.location.href = `mailto:${email}`;
+    };
+
     return (
         <section className="Contact-section">
             <div className="category-title">
@@ -10,12 +16,13 @@ const Contact = () => {
             </div>
             <div className="contact-info">
                 <p className="paragraph">Do you have any questions or want to work together?</p>
-                <button className="email-button"><img src="/svg/mail.svg" alt="mail" />
-                    samuelmercado7b@gmail.com
+                <button className="email-button" onClick={handleEmailClick}>
+                    <img src="/svg/mail.svg" alt="mail" />
+                    {email}
                 </button>
             </div>
         </section>
     );
 }
 
-export {Contact};
+export { Contact };
