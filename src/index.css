@@ -44,3 +44,30 @@ h2 {
   font-size: 24px;
   font-weight: 700;
 }
+
+@media screen and (max-width: 768px) {
+  .category-title {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    }
+  .category-title span{
+    background-image: none;
+    width: 0;
+    height: 0;
+  }
+
+  .about-me--section .paragraph{
+    margin: 0 auto;
+    text-align: center;
+    width: 520px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-me--section .paragraph{
+    width: 300px;
+  }
+}
+
+

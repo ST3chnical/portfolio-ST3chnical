@@ -38,3 +38,56 @@ header {
     padding: 10px 0;
     font-weight: 600;
 }
+
+.menu-toggle {
+    width: 65px;
+    height: 65px;
+    display: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 40px;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .navbar-right ul {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.55);
+        width: 140px;
+        margin: 0;
+        flex-direction: column;
+        border-bottom-left-radius: 10px;
+    }
+
+    .navbar-right ul.open {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .navbar-right ul li {
+        margin: 10px 24px 10px 0;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .logo img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+
+
+

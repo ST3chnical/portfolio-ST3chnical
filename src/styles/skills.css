@@ -23,3 +23,24 @@
     max-width: 100px;
     height: auto;
 }
+
+@media screen and (max-width: 768px) {
+    .skills-container {
+        margin: 20px 14px 0 14px;
+    }
+    .skill {
+        width: 140px;
+        height: 140px;
+        font-size: 14px;
+    }
+    .skill img {
+        max-width: 70px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px 32px 0 32px;
+    }
+}

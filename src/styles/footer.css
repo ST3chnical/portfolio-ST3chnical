@@ -29,3 +29,24 @@ footer {
     width: 30px;
     height: 30px;
 }
+
+@media screen and (max-width: 480px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 2px;
+    }
+    .footer-left {
+        order: 2;
+        margin: 1px auto 0 auto;
+        font-size: 10px;
+    }
+    .social-media {
+        order: 1;
+        margin: 0 0 14px 0;
+    }
+    .social-media li {
+        margin: 0 20px;
+    }
+}
