@@ -68,6 +68,11 @@
     .project h3 {
         font-size: 18px;
     }
+    .sub-category .sub-title {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
 
 }
 
