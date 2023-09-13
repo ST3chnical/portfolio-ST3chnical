@@ -10,6 +10,10 @@ const imagePaths = {
     git: '/images/git.png',
     github: '/images/github.png',
     linux: '/images/linux.png',
+    react: '/images/react.png',
+    api_rest: '/images/api-rest.png',
+    graphql: '/images/graphql.png',
+    go_SOON_: '/images/go.png',
 };
 
 const Skills = () => {
