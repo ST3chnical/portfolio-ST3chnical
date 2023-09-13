@@ -10,56 +10,13 @@ const Projects = () => {
             projectURL: 'https://todos-manager-react.vercel.app/',
             type: 'Frontend',
         },
-        {
-            id: 2,
-            title: 'Example',
-            thumbnailURL: '/images/example.jpeg',
-            projectURL: 'https://todos-manager-react.vercel.app/',
-            type: 'Backend', // Agrega el tipo de proyecto
-        },
-        {
-            id: 3,
-            title: 'Example',
-            thumbnailURL: '/images/example.jpeg',
-            projectURL: 'https://todos-manager-react.vercel.app/',
-            type: 'Frontend',
-        },
-        {
-            id: 4,
-            title: 'Example',
-            thumbnailURL: '/images/example.jpeg',
-            projectURL: 'https://todos-manager-react.vercel.app/',
-            type: 'Backend', // Agrega el tipo de proyecto
-        },
-        {
-            id: 5,
-            title: 'Example',
-            thumbnailURL: '/images/example.jpeg',
-            projectURL: 'https://todos-manager-react.vercel.app/',
-            type: 'Frontend',
-        },
-        {
-            id: 6,
-            title: 'Example',
-            thumbnailURL: '/images/example.jpeg',
-            projectURL: 'https://todos-manager-react.vercel.app/',
-            type: 'Backend', // Agrega el tipo de proyecto
-        },
-        {
-            id: 7,
-            title: 'Example',
-            thumbnailURL: '/images/example.jpeg',
-            projectURL: 'https://todos-manager-react.vercel.app/',
-            type: 'Frontend',
-        },
-        {
-            id: 8,
-            title: 'Example',
-            thumbnailURL: '/images/example.jpeg',
-            projectURL: 'https://todos-manager-react.vercel.app/',
-            type: 'Backend', // Agrega el tipo de proyecto
-        },
-
+        // {
+        //     id: 2,
+        //     title: 'Example',
+        //     thumbnailURL: '/images/example.jpeg',
+        //     projectURL: 'https://todos-manager-react.vercel.app/',
+        //     type: 'Backend', // Agrega el tipo de proyecto
+        // },
     ];
 
     const frontendProjects = projectsData.filter((project) => project.type === 'Frontend');
