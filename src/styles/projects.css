@@ -3,10 +3,11 @@
 }
 
 .project-list {
-    margin: 25px 160px 25px 160px;
+    margin: 25px 140px 25px 140px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+    grid-template-columns: repeat(3, minmax(210px, 1fr));
     gap: 60px;
+    justify-content: center;
 }
 
 .project {
