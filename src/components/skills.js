@@ -2,14 +2,15 @@ import React from 'react';
 import '../styles/skills.css';
 
 const imagePaths = {
-    html: '/images/html.png',
-    css: '/images/css.png',
-    javascript: '/images/javascript.png',
     python: '/images/python.png',
     sql: '/images/sql.png',
     git: '/images/git.png',
     github: '/images/github.png',
+    docker: '/images/docker.png',
     linux: '/images/linux.png',
+    html: '/images/html.png',
+    css: '/images/css.png',
+    javascript: '/images/javascript.png',
     react: '/images/react.png',
     api_rest: '/images/api-rest.png',
     graphql: '/images/graphql.png',
