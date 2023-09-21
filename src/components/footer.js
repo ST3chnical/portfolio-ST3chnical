@@ -10,7 +10,7 @@ const socialMediaIcons = {
 
 const socialMediaLinks = {
     github: "https://github.com/ST3chnical",
-    whatsapp: "https://wa.me/+573042042781",
+    whatsapp: "https://wa.me/+57",
     instagram: "https://www.instagram.com/sammerk2_/",
     linkedin: "https://www.linkedin.com/in/samuel-mercado-948727270",
 };
