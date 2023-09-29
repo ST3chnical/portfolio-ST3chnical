@@ -10,6 +10,13 @@ const Projects = () => {
             projectURL: 'https://todos-manager-react.vercel.app/',
             type: 'Frontend',
         },
+        {
+            id: 2,
+            title: 'Fake Store',
+            thumbnailURL: '/images/fake-store.png',
+            projectURL: 'https://fake-store-murex.vercel.app/',
+            type: 'Frontend',
+        },
         // {
         //     id: 2,
         //     title: 'Example',
